@@ -1,12 +1,16 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import Header from './Header';
+import Menu from './Menu';
+import Footer from './Footer';
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Header />
+        <Menu />
+        <Footer />
+      </div>
+    )
+  }
 }
-
-export default App;
